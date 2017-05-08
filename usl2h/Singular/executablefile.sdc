@@ -1,5 +1,5 @@
 LIB "freegb.lib";
-ring r = 0,(H,h,f,e),dp;
+ring r = 0,(e,f,h,H),dp;
 int d = 4;
 def R = makeLetterplaceRing(d);
  setring(R);

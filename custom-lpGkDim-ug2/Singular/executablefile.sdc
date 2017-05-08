@@ -1,5 +1,5 @@
 LIB "fpadim.lib";
-ring r = 0,(H2,H1,y6,y5,y4,y3,y2,y1,x6,x5,x4,x3,x2,x1),dp;
+ring r = 0,(x1,x2,x3,x4,x5,x6,y1,y2,y3,y4,y5,y6,H1,H2),dp;
 int d = 4;
 def R = makeLetterplaceRing(d);
  setring(R);
