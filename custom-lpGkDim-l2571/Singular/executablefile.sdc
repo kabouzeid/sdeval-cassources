@@ -13,7 +13,7 @@ setring r;
 def R2 = makeLetterplaceRing(23); // constructs a Letterplace ring
 setring R2; // sets basering to Letterplace ring
 ideal I = imap(R,I);
-int gkDim = lpGkDim(I);
+int gkDim = lpGkDim(J,1);
 print("=====Solution Begin=====");
 print (I, "%s");
 print("=====Solution End=====");$;

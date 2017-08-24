@@ -11,7 +11,7 @@ option(prot);
 option(redSB);
 option(redTail);
 I = letplaceGBasis(I); // not finite BUT contains a poly in x,y only
-int gkDim = lpGkDim(I); // must be 4
+int gkDim = lpGkDim(J,1); // must be 4
 print("=====Solution Begin=====");
 print (gkDim, "%s");
 print("=====Solution End=====");$;
