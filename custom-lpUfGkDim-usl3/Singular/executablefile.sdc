@@ -35,7 +35,7 @@ option(prot);
 option(redTail);
 option(redSB);
 ideal J = letplaceGBasis(I);
-int gkDim = lpUfGkDim(J);
+int gkDim = lpGkDim(J,0);
 print("=====Solution Begin=====");
 print (gkDim, "%s");
 print("=====Solution End=====");$;
