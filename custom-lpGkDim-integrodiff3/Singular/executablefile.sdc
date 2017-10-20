@@ -1,7 +1,6 @@
 LIB "fpadim.lib";
 ring r = 0,(d,I,x),dp;
-int d = 4;
-def R = makeLetterplaceRing(d);
+def R = makeLetterplaceRing(4);
 setring(R);
 ideal I = d(1)*x(2) - x(1)*d(2) - 1, I(1)*x(2) - x(1)*I(2) + I(1)*I(2), d(1)*I(2) - 1;
 option(prot);
